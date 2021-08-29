@@ -3,10 +3,10 @@
 .menu {
     width: 350px;
     height: 100vh;
-    background-color: $secondaryColor;
+    background-color: rgb(121, 121, 121);
     position: fixed;
     top: 0;
-    right: -300px;
+    right: -500px;
     z-index: 2;
     display: flex;
     flex-direction: column;
@@ -15,7 +15,7 @@
     transition: all 1s ease;
 
     @include mobile {
-        width: 300px;
+        width: 400px;
     }
 
     &.active {
@@ -27,8 +27,8 @@
         padding: 0;
         list-style: none;
         font-size: 30px;
-        font-weight: 300;
-        color: $mainColor;
+        font-weight: bold;
+        color: $tertiaryColor;
         width: 60%;
 
         li {
@@ -41,7 +41,7 @@
             }
 
             &:hover {
-                font-weight: 700;
+                color: $mainColor;
             }
         }
     }

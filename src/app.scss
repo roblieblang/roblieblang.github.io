@@ -11,10 +11,20 @@
         top: 70px;
         scroll-behavior: smooth;
         scroll-snap-type: y mandatory;
-        scrollbar-width: none; //firefox
+        scrollbar-width: thin; //firefox
         &::-webkit-scrollbar { //others
-            display: none;
+            width: 0.8em;
+            @include mobile {
+                display: none;
+            }
+        } 
+        &::-webkit-scrollbar-track { 
+            box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.3);
         }
+        &::-webkit-scrollbar-thumb { 
+            background-color: $mainColor;
+        }
+        
 
         > *{
             width: 100vw;

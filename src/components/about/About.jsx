@@ -5,22 +5,19 @@ export default function About() {
         <div className="about" id="about">
             <div className="left">
                 <div className="imgContainer">
-                <iframe src="https://docs.google.com/document/d/e/2PACX-1vRwVlQyuOWl4eTghje89iiEKq3ek2vq3bRw3RKv6tUWfQiShy7lcwHdEnvFvhMVaw/pub?embedded=true">
-                </iframe>
+                    <iframe className="responsive-iframe" src="https://docs.google.com/document/d/e/2PACX-1vQslIh0uKwLetTr9eDhLLG_ie74q2MnrRrGdhzV7r73kBdo7Ki2emPL9SOR5gmpgw/pub?embedded=true">
+                    </iframe>
                 </div>
             </div>
             <div className="right">
                 <div className="wrapper">
                     <h1>Hello, </h1>
-                        <br /> 
                         <p> 
-                        I'm Robert Lieblang.
+                        My name is Robert Lieblang.
                         <br />
-                        I am pursuing a BS in Computer Science with a concentration in Software Development from Depaul University. 
-                        I have experience with a variety of technologies (see resume to the left), and you can see what I've done with some of them 
-                        on the next page. The page after that includes my contact information. 
-                    </p>
-                    <br />
+                        I am pursuing a BS in Computer Science with a concentratiion in Software Development from DePaul University. 
+                        </p>
+                        <br />
                     <h2>Thanks for visiting.</h2>
                 </div>
               {/*   <a href="#projects">

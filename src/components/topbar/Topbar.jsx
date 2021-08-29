@@ -1,5 +1,6 @@
 import "./topbar.scss"
 import {GitHub, Email, LinkedIn, ListAlt} from "@material-ui/icons"
+import { ImFileText2 } from 'react-icons/im';
 
 export default function Topbar({menuOpen, setMenuOpen}) {
     return (
@@ -17,7 +18,7 @@ export default function Topbar({menuOpen, setMenuOpen}) {
                     </div>
                     <div className="itemContainer">
                         <a href="https://docs.google.com/document/d/1MyFUI2qgXH4k5GckUYSGuSNiah1zFeIt/edit?usp=sharing&ouid=114404671549869871978&rtpof=true&sd=true" target="blank">
-                            <ListAlt className="icon" />
+                            <ImFileText2 className="icon" />
                         </a>
                         <span></span> 
                     </div>
